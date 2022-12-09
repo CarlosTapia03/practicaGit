@@ -1,14 +1,15 @@
 
 public class Gatos {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		String nombre;
-		int edad;
-		
-		
-
+	public String nombre;
+	public int edad;
+	
+	public Gatos(String nombre, int edad) {
+		super();
+		this.nombre = nombre;
+		this.edad = edad;
 	}
-
+	
+	
+	
 }
